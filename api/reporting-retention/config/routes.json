@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reporting-retentions",
+      "handler": "reporting-retention.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reporting-retentions/count",
+      "handler": "reporting-retention.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reporting-retentions/:id",
+      "handler": "reporting-retention.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reporting-retentions",
+      "handler": "reporting-retention.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reporting-retentions/:id",
+      "handler": "reporting-retention.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reporting-retentions/:id",
+      "handler": "reporting-retention.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

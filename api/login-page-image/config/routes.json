@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/login-page-images",
+      "handler": "login-page-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/login-page-images/count",
+      "handler": "login-page-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/login-page-images/:id",
+      "handler": "login-page-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/login-page-images",
+      "handler": "login-page-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/login-page-images/:id",
+      "handler": "login-page-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/login-page-images/:id",
+      "handler": "login-page-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reporting-opportunities",
+      "handler": "reporting-opportunity.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reporting-opportunities/count",
+      "handler": "reporting-opportunity.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reporting-opportunities/:id",
+      "handler": "reporting-opportunity.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reporting-opportunities",
+      "handler": "reporting-opportunity.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reporting-opportunities/:id",
+      "handler": "reporting-opportunity.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reporting-opportunities/:id",
+      "handler": "reporting-opportunity.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
